@@ -24,9 +24,11 @@ https://www.anaconda.com/distribution/#download-section
 conda create -n test python=3.7
 
 ## 4: 激活conda
+
 conda activate test
 
 ## 5: 安装TensorFlow
+
 python -m pip install --upgrade pip
 CPU版本：pip install --ignore-installed --upgrade tensorflow
 GPU版本：pip install --ignore-installed --upgrade tensorflow-gpu
