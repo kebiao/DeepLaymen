@@ -16,6 +16,7 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NV
 ## 2：Anaconda安装
 
 包含了conda、Python等180多个科学包及其依赖项，功能十分强大
+
 https://www.anaconda.com/distribution/#download-section
 
 ## 3: 创建Python环境
@@ -26,7 +27,6 @@ conda create -n test python=3.7
 conda activate test
 
 ## 5: 安装TensorFlow
-
 python -m pip install --upgrade pip
 CPU版本：pip install --ignore-installed --upgrade tensorflow
 GPU版本：pip install --ignore-installed --upgrade tensorflow-gpu
