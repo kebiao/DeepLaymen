@@ -21,10 +21,12 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 
 点击配置，修改文件内容如下：
 
-
 （1）上面的文件放在C盘根目录则为 hd0,0，D盘则为hd0,4。
+
 （2）（hdx,y）x代表对应磁盘，y代表对应分区。
+
 （3一般情况下C盘为主分区，DEF盘为逻辑盘，感兴趣可自行了解。
+
 
     # NeoSmart NeoGrub Bootloader Configuration File
     #
