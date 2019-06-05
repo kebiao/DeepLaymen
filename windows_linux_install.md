@@ -36,8 +36,8 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 
     title Install Ubuntu 
     root (hd0,0) 
-    kernel (hd0,0)/vmlinuz.efi boot=casper iso-scan/filename=/ubuntu-19.04-desktop-amd64.iso ro quiet splash locale=zh_CN.UTF-8 
-    initrd (hd0,0)/initrd.lz
+    kernel (hd0,0)/vmlinuz boot=casper iso-scan/filename=/ubuntu-19.04-desktop-amd64.iso ro quiet splash locale=zh_CN.UTF-8 
+    initrd (hd0,0)/initrd
 
 
 在EasyBCD编辑引导菜单可看到NeoGrub引导加载器，记得勾选等待用户选择，保存设置:
