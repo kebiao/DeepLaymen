@@ -54,3 +54,49 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
     sudo umount -l /isodevice
 
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/8.png)
+
+然后点击桌面的安装程序进行安装，前几步的选项如图：
+
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/9.png)
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/10.png)
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/11.png)
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/12.png)
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/13.png)
+
+分配空间时需要注意：
+
+交换空间    : 逻辑分区  8000MB
+
+/                 : 逻辑分区   20480MB (一般为机器内存的一到两倍)
+
+/home        : 逻辑分区   腾出200M左右的空间后的大小
+
+/boot          :  主分区      200MB左右 （这个分区必须最后分配，否则可能为出现其他分区无法分配的情况）
+
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/14.png)
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/15.png)
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/16.png)
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/17.png)
+
+最后选择/boot 所在分区进行安装：
+
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/18.png)
+
+之后按照提示step by step就可以了。
+
+
+## 6.Clear()
+
+安装完之后，重启进入Windows界面，打开EasyBCD，添加Ubuntu启动项，顺便删除NeoGrub引导项，删除根目录下的iso等三个文件：
+
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/19.png)
+
+引导菜单大概是这样的：
+
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/20.png)
+
+当时选择的是中文安装Ubuntu，但是因为在终端操作时，中文的路径非常之难用，可在语言支持中把English 拖动到中文之上，注销登出一下即可，然后再update一下就ok了：
+
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/21.png)
+
+END~
