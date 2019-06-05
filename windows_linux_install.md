@@ -71,7 +71,7 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 
 /home        : 逻辑分区   腾出200M左右的空间后的大小
 
-/boot          :  主分区      200MB左右 （这个分区必须最后分配，否则可能为出现其他分区无法分配的情况）
+/boot          :  主分区     200MB左右 （这个分区必须最后分配，否则可能为出现其他分区无法分配的情况）
 
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/14.png)
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/15.png)
