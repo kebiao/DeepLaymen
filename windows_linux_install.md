@@ -14,4 +14,6 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 
 打开EasyBCD，添加新条目->NeoGrub->安装：
 
-![image1](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/1.png)
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/1.png)
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/2.png)
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/3.png)
