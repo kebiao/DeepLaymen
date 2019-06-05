@@ -26,14 +26,15 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 （2）（hdx,y）x代表对应磁盘，y代表对应分区。
 （3一般情况下C盘为主分区，DEF盘为逻辑盘，感兴趣可自行了解。
 
-  # NeoSmart NeoGrub Bootloader Configuration File
-  #
-  # This is the NeoGrub configuration file, and should be located at C:\NST\menu.lst
-  # Please see the EasyBCD Documentation for information on how to create/modify entries:
-  # http://neosmart.net/wiki/display/EBCD/
+    # NeoSmart NeoGrub Bootloader Configuration File
+    #
+    # This is the NeoGrub configuration file, and should be located at C:\NST\menu.lst
+    # Please see the EasyBCD Documentation for information on how to create/modify entries:
+    # http://neosmart.net/wiki/display/EBCD/
 
-  title Install Ubuntu 
-  root (hd0,4) 
-  kernel (hd0,4)/vmlinuz.efi boot=casper iso-scan/filename=/ubuntu-16.04.2-desktop-amd64.iso ro quiet splash locale=zh_CN.UTF-8 
-  initrd (hd0,4)/initrd.lz
+    title Install Ubuntu 
+    root (hd0,4) 
+    kernel (hd0,4)/vmlinuz.efi boot=casper iso-scan/filename=/ubuntu-16.04.2-desktop-amd64.iso ro quiet splash locale=zh_CN.UTF-8 
+    initrd (hd0,4)/initrd.lz
+
 
