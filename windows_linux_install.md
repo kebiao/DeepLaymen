@@ -65,7 +65,7 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 
 分配空间时需要注意：
 
-交换空间    : 逻辑分区  8000MB
+交换空间    : 逻辑分区   8000MB
 
 /                 : 逻辑分区   20480MB (一般为机器内存的一到两倍)
 
