@@ -13,13 +13,13 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 
 ## 3.配置引导
 
-将ubuntu**.iso中的initrd.lz、vmlinuz.efi 解压出来与iso一同放在C盘或D盘根目录（必须根目录）下。
+将ubuntu**.iso中casper目录的initrd.lz、vmlinuz.efi 解压出来与iso一同放在C盘或D盘根目录（必须根目录）下。
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/4.png)
 
 打开EasyBCD，添加新条目->NeoGrub->安装：
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/5.png)
 
-点击配置，修改编辑C:\NST\menu.lst文件内容如下：
+点击配置，C盘中会多出一个“NST”文件夹和一个NeoGrub文件，修改编辑C:\NST\menu.lst文件内容如下（其中iso文件改为你自己的）：
 
 （1）上面的文件放在C盘根目录则为 hd0,0，D盘则为hd0,4。
 
@@ -36,7 +36,7 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 
     title Install Ubuntu 
     root (hd0,4) 
-    kernel (hd0,4)/vmlinuz.efi boot=casper iso-scan/filename=/ubuntu-16.04.2-desktop-amd64.iso ro quiet splash locale=zh_CN.UTF-8 
+    kernel (hd0,4)/vmlinuz.efi boot=casper iso-scan/filename=/ubuntu-19.04-desktop-amd64.iso ro quiet splash locale=zh_CN.UTF-8 
     initrd (hd0,4)/initrd.lz
 
 在EasyBCD编辑引导菜单可看到NeoGrub引导加载器，记得勾选等待用户选择，保存设置:
