@@ -23,9 +23,7 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 
 
 （1）上面的文件放在C盘根目录则为 hd0,0，D盘则为hd0,4。
-
 （2）（hdx,y）x代表对应磁盘，y代表对应分区。
-
 （3一般情况下C盘为主分区，DEF盘为逻辑盘，感兴趣可自行了解。
 
     # NeoSmart NeoGrub Bootloader Configuration File
@@ -39,4 +37,18 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
     kernel (hd0,4)/vmlinuz.efi boot=casper iso-scan/filename=/ubuntu-16.04.2-desktop-amd64.iso ro quiet splash locale=zh_CN.UTF-8 
     initrd (hd0,4)/initrd.lz
 
+在EasyBCD编辑引导菜单可看到NeoGrub引导加载器，记得勾选等待用户选择，保存设置:
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/6.png)
 
+## 4.进入引导
+
+配置完成后重启计算机，选择NeoGrub引导加载器，若上诉配置无误即可进入ubuntu界面的引导：
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/7.png)
+
+## 5.开始Ubuntu系统安装
+
+使用ctrl+alt+T打开终端，输入以下命令卸载分区：
+
+    sudo umount -l /isodevice
+
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/8.png)
