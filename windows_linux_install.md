@@ -19,7 +19,7 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 打开EasyBCD，添加新条目->NeoGrub->安装：
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/5.png)
 
-点击配置，修改文件内容如下：
+点击配置，修改编辑C:\NST\menu.lst文件内容如下：
 
 （1）上面的文件放在C盘根目录则为 hd0,0，D盘则为hd0,4。
 
