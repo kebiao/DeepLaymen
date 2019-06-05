@@ -11,4 +11,6 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 ## 3.配置引导
 
 将ubuntu**.iso中的initrd.lz、vmlinuz.efi 解压出来与iso一同放在C盘或D盘根目录（必须根目录）下。
+
 打开EasyBCD，添加新条目->NeoGrub->安装：
+![image1](https://github.com/kebiao/deeplearning /blob/master/screenshots/win_linux_install/1.png)
