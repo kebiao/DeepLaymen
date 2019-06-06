@@ -1,11 +1,14 @@
-#### 所有资源：https://pan.baidu.com/s/19ZxtLXnNYxjv4eE5uwLbqg 提取码：xpz0
+#### 所有资源：
+
+https://pan.baidu.com/s/19ZxtLXnNYxjv4eE5uwLbqg    提取码：xpz0
+
+https://developer.nvidia.com/cuda-toolkit-archive
+
+https://developer.nvidia.com/rdp/cudnn-download
 
 # Windows:
 
 将cudnn中的文件拷贝到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0下
-https://developer.nvidia.com/rdp/cudnn-download
-
-https://developer.nvidia.com/cuda-toolkit-archive
 
 将路径加入到path环境变量:
 
@@ -31,8 +34,6 @@ $ optirun glxinfo|egrep "OpenGL vendor|OpenGL renderer"
 
 #### 下载CUDA与cuDNN：
 
-选择支持的Linux版本，选择runfile下载：
+选择支持的Linux版本，选择runfile下载。
 
-https://developer.nvidia.com/cuda-toolkit-archive
 
-https://developer.nvidia.com/rdp/cudnn-download
