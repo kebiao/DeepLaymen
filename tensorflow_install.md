@@ -1,8 +1,10 @@
 ## 所有资源：https://pan.baidu.com/s/19ZxtLXnNYxjv4eE5uwLbqg 提取码：xpz0
 
-## Windows:
+#### Windows:
 
 ## 1: GPU环境CUDA和CuDNN安装 （CPU版本忽略）
+
+# 注意：匹配TensorFlow所支持的版本再下载
 
 将cudnn中的文件拷贝到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0下
 https://developer.nvidia.com/rdp/cudnn-download
