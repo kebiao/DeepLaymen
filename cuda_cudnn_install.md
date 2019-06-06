@@ -13,6 +13,8 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NV
 
 # Ubuntu:
 
+#### 显卡检查
+
 查看系统当前使用的显卡是否是独立显卡，如果是集成显卡输出如下：
 
 $ glxinfo|egrep "OpenGL vendor|OpenGL renderer*"
@@ -27,7 +29,7 @@ $ optirun glxinfo|egrep "OpenGL vendor|OpenGL renderer"
     OpenGL vendor string: NVIDIA Corporation
     OpenGL renderer string: GeForce GT 555M/PCIe/SSE2
 
-下载CUDA与cuDNN：
+#### 下载CUDA与cuDNN：
 
 选择支持的Linux版本，选择runfile下载：
 
