@@ -30,6 +30,7 @@ $ optirun glxinfo|egrep "OpenGL vendor|OpenGL renderer"
 下载CUDA与cuDNN：
 
 选择支持的Linux版本，选择runfile下载：
+
 https://developer.nvidia.com/cuda-toolkit-archive
 
 https://developer.nvidia.com/rdp/cudnn-download
