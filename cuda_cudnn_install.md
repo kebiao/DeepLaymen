@@ -37,3 +37,12 @@ $ optirun glxinfo|egrep "OpenGL vendor|OpenGL renderer"
 选择支持的Linux版本，选择runfile下载。
 
 
+#### 设置环境变量
+
+vim ~/.bashrc   #打开该用户的配置文件.bashrc
+
+    export CUDA_HOME=/usr/local/cuda-8.0
+    export PATH="$PATH:/usr/local/cuda-8.0/bin"
+    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda-8.0/lib64:/usr/local/cuda-8.0/extras/CUPTI/lib64"
+
+https://www.cnblogs.com/zpcdbky/p/9757821.html
