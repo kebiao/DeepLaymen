@@ -4,11 +4,11 @@
 
 需要把NVIDIA的显卡禁掉，在安装的过程中，选中install ubuntu那一选项，按‘e'编辑将：
 
-   quite splash ---
+    quite splash ---
 
 改为：
 
-   quite splash nomodeset
+    quite splash nomodeset
 
 再按F10就可以顺利安装了。
 
@@ -19,11 +19,11 @@
 
 重启后进入系统引导选项，按’e'编辑大概在倒数第二行将：
 
-   quite splash $vt_handoff
+    quite splash $vt_handoff
 
 改为：
 
-   quite splash nomodeset_$vt_handoff
+    quite splash nomodeset_$vt_handoff
 
 再按F10这样你会发现这样就可以启动了。
 
