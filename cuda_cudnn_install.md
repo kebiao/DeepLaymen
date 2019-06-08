@@ -61,9 +61,13 @@ CUDA选择支持的Linux版本，选择runfile下载。
 重启后继续上面的步骤安装CUDA。
 
 
-CUDNN选择支持的Linux版本，选择如cuDNN Runtime Library for Ubuntu14.04 (Deb)下载。
+CUDNN选择支持的Linux版本，选择如cuDNN Library for Linux下载。
     
-    sudo dpkg -i libcudnn7_7.6.0.64-1+cuda10.0_amd64.deb
+    tar -xzvf cudnn-10.0-linux-x64-v7.6.0.64.tgz
+    sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+    sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64 
+    sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+
 
 #### 设置环境变量
 
@@ -72,13 +76,6 @@ vim ~/.bashrc   #打开该用户的配置文件.bashrc
     export CUDA_HOME=/usr/local/cuda-10.0
     export PATH="$PATH:/usr/local/cuda-10.0/bin"
     export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda-10.0/lib64:/usr/local/cuda-10.0/extras/CUPTI/lib64"
-
-#### 如果cuDNN是压缩包版本（非Deb类安装方式）需要拷贝文件到系统目录
-
-    sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
-    sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64/
-    sudo chmod a+r /usr/local/cuda/include/cudnn.h
-    sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 
 #### 测试是否安装成功：
 
