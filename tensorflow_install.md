@@ -39,3 +39,6 @@ https://www.anaconda.com/distribution/#download-section
 
 
 # Ubuntu:
+
+    sudo apt-get install build-essential
+    sudo apt-get install autoconf automake libtool
