@@ -52,7 +52,6 @@ CUDA选择支持的Linux版本，选择runfile下载。
         modprobe -r nvidia-drm
 
         安装驱动完成之后再次启动图形环境，可以使用此命令：
-
         sudo systemctl start graphical.target
 
 
