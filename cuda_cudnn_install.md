@@ -49,15 +49,21 @@ CUDA选择支持的Linux版本，选择runfile下载。
         sudo systemctl isolate multi-user.target
 
         # 卸载Nvidia驱动程序
-        modprobe -r nvidia-drm
-
+        sudo modprobe -r nvidia-drm
+        
+        卸载旧的驱动
+        sudo apt-get purge nvidia-cuda*
+        sudo apt-get purge nvidia-*
+        
         安装驱动完成之后再次启动图形环境，可以使用此命令：
         sudo systemctl start graphical.target
+
+重启后继续上面的步骤安装CUDA。
 
 
 CUDNN选择支持的Linux版本，选择如cuDNN Runtime Library for Ubuntu14.04 (Deb)下载。
     
-    sudo dpkg -i libcudnn7_7.4.1.5-1+cuda9.0_amd64.deb 
+    sudo dpkg -i libcudnn7_7.6.0.64-1+cuda10.0_amd64.deb
 
 #### 设置环境变量
 
