@@ -30,10 +30,12 @@
 ### 3.安装显卡驱动
 
 ##### 方法一:
-其实很简单，在设置里点开“软件与更新”，先换源（推荐换成中国的源），并更新。
+
+其实很简单，在设置里点开“软件与更新”，先换源（[推荐换成清华的源](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)），并更新。
 再到“附加驱动”里找nvidia独显，安装驱动，再重启（不需要再按‘e’进行编辑），一般分辨率就会恢复正常，电脑也不会卡死，如果分辨如还不能恢复，在网站上查一下，如何切换分辨率。
 
 ##### 方法二:
+
     add-apt-repository ppa:graphics-drivers/ppa
     apt-get update
     
@@ -41,17 +43,17 @@
     ubuntu-drivers devices
     apt-get install nvidia-430
     
- 安装完驱动后还要安装依赖
+安装完驱动后还要安装依赖：
 
     apt-get install mesa-common-dev
     apt-get install freeglut3-dev
 
-最后重启，然后再终端中输入:
+最后重启，然后再终端中输入：
 
     nvidia-smi
     nvidia-setting
 
-如果有显卡的信息输出就说明成功安装了.
+如果有显卡的信息输出就说明成功安装了。
 
     
     
