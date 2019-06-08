@@ -51,7 +51,6 @@
 最后重启，然后再终端中输入：
 
     nvidia-smi
-    nvidia-setting
 
 如果有显卡的信息输出就说明成功安装了。
 
