@@ -43,11 +43,18 @@ CUDA选择支持的Linux版本，选择runfile下载。
     sudo ./cuda_10.0.130.1_linux.run
 
 
-如果出错：
-
-       ERROR: An NVIDIA kernel module 'nvidia-drm' appears to already be loaded in your kernel.
+如果出错ERROR: An NVIDIA kernel module 'nvidia-drm' appears to already be loaded in your kernel.
        
-关闭图形化界面，ctrl+alt+f4进命令行界面，ctrl+alt+f1恢复，需要重启sudo。
+        # 禁用图形目标
+        sudo systemctl isolate multi-user.target
+
+        # 卸载Nvidia驱动程序
+        modprobe -r nvidia-drm
+
+        安装驱动完成之后再次启动图形环境，可以使用此命令：
+
+        sudo systemctl start graphical.target
+
 
 CUDNN选择支持的Linux版本，选择如cuDNN Runtime Library for Ubuntu14.04 (Deb)下载。
     
