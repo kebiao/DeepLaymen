@@ -40,5 +40,6 @@ https://www.anaconda.com/distribution/#download-section
 
 # Ubuntu:
 
-    sudo apt-get install build-essential
+    sudo apt-get update
+    sudo apt-get install build-essential libgtk2.0-dev libavcodec-dev libavformat-dev libjpeg-dev libswscale-dev libtiff5-dev:i386 libtiff5-dev
     sudo apt-get install autoconf automake libtool
