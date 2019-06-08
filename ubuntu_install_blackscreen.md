@@ -39,9 +39,9 @@
     add-apt-repository ppa:graphics-drivers/ppa
     apt-get update
     
-    寻找合适的驱动版本
+    寻找合适的驱动版本，如果要安装CUDA，请先查阅CUDA版本对应的显卡驱动版本
     ubuntu-drivers devices
-    apt-get install nvidia-430
+    apt-get install nvidia-410
     
 安装完驱动后还要安装依赖：
 
