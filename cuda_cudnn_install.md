@@ -32,10 +32,16 @@ $ optirun glxinfo|egrep "OpenGL vendor|OpenGL renderer"
     OpenGL vendor string: NVIDIA Corporation
     OpenGL renderer string: GeForce GT 555M/PCIe/SSE2
 
-#### 下载CUDA与cuDNN：
+#### 下载安装CUDA与cuDNN：
 
-选择支持的Linux版本，选择runfile下载。
+CUDA选择支持的Linux版本，选择runfile下载。
 
+    chmod +x cuda_10.0.130_410.48_linux.run 
+    ./cuda_10.0.130_410.48_linux.run
+ 
+CUDNN选择支持的Linux版本，选择如cuDNN Runtime Library for Ubuntu14.04 (Deb)下载。
+    
+    dpkg -i libcudnn7_7.4.1.5-1+cuda9.0_amd64.deb 
 
 #### 设置环境变量
 
@@ -45,4 +51,15 @@ vim ~/.bashrc   #打开该用户的配置文件.bashrc
     export PATH="$PATH:/usr/local/cuda-8.0/bin"
     export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda-8.0/lib64:/usr/local/cuda-8.0/extras/CUPTI/lib64"
 
-https://www.cnblogs.com/zpcdbky/p/9757821.html
+#### 如果cuDNN是压缩包版本（非Deb类安装方式）需要拷贝文件到系统目录
+
+    sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
+    sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64/
+    sudo chmod a+r /usr/local/cuda/include/cudnn.h
+    sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
+
+#### 测试是否安装成功：
+
+    nvcc -V
+
+
