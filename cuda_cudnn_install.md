@@ -39,6 +39,9 @@ CUDA选择支持的Linux版本，选择runfile下载。
     chmod +x cuda_10.0.130_410.48_linux.run 
     ./cuda_10.0.130_410.48_linux.run
  
+    chmod +x cuda_10.0.130.1_linux.run 
+    ./cuda_10.0.130.1_linux.run
+    
 CUDNN选择支持的Linux版本，选择如cuDNN Runtime Library for Ubuntu14.04 (Deb)下载。
     
     dpkg -i libcudnn7_7.4.1.5-1+cuda9.0_amd64.deb 
