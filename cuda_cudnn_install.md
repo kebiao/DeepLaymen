@@ -69,9 +69,9 @@ CUDNN选择支持的Linux版本，选择如cuDNN Runtime Library for Ubuntu14.04
 
 vim ~/.bashrc   #打开该用户的配置文件.bashrc
 
-    export CUDA_HOME=/usr/local/cuda-8.0
-    export PATH="$PATH:/usr/local/cuda-8.0/bin"
-    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda-8.0/lib64:/usr/local/cuda-8.0/extras/CUPTI/lib64"
+    export CUDA_HOME=/usr/local/cuda-10.0
+    export PATH="$PATH:/usr/local/cuda-10.0/bin"
+    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda-10.0/lib64:/usr/local/cuda-10.0/extras/CUPTI/lib64"
 
 #### 如果cuDNN是压缩包版本（非Deb类安装方式）需要拷贝文件到系统目录
 
