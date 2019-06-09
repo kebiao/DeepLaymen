@@ -144,8 +144,8 @@ nvcc fatal   : Unsupported gpu architecture 'compute_20'
 
 由于gflags2.1之后将命名空间由google改为了gflags，所以这里暂时可以这样解决
 
-* caffe/include/caffe/common.hpp
-* caffe/examples/mnist/convert_mnist_data.cpp
+* include/caffe/common.hpp
+* examples/mnist/convert_mnist_data.cpp
 
 在以上文件中注释掉#ifndef、#endif
 
