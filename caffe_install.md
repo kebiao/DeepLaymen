@@ -134,3 +134,14 @@ nvcc fatal   : Unsupported gpu architecture 'compute_20'
     sudo cp libcudnn.so.7.4.1 /usr/local/cuda/lib64/
     sudo cp libcudnn_static.a /usr/local/cuda/lib64/
 
+#### tools/convert_imageset.cpp:56:3: error: ‘gflags’ has not been declared
+
+由于gflags2.1之后将命名空间由google改为了gflags，所以这里暂时可以这样解决
+
+* caffe/include/caffe/common.hpp
+* caffe/examples/mnist/convert_mnist_data.cpp
+
+
+        // #ifndef GFLAGS_GFLAGS_H_
+        namespace gflags = google;
+        // #endif  // GFLAGS_GFLAGS_H_
