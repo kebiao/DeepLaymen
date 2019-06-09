@@ -95,8 +95,14 @@ python中测试是否安装成功:
     
  #### 编译
  
-     make all
+    make all
  
+ 一些其他库可能需要proto协议：
+ 
+    protoc src/caffe/proto/caffe.proto --cpp_out=.
+    mkdir include/caffe/proto
+    mv src/caffe/proto/caffe.pb.h include/caffe/proto
+
 
 #### 相关错误
 
