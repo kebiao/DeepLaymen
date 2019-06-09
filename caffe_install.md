@@ -17,7 +17,11 @@ numpy：
 
 安装opencv：
 
-https://opencv.org/releases.html
+默认版本安装：
+
+    sudo apt-get install python-opencv
+
+需要安装制定版本需要自己编译：https://opencv.org/releases.html
   
     cd  opencv-3.4.3
     mkdir release
