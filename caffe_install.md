@@ -141,7 +141,8 @@ nvcc fatal   : Unsupported gpu architecture 'compute_20'
 * caffe/include/caffe/common.hpp
 * caffe/examples/mnist/convert_mnist_data.cpp
 
+在以上文件中注释掉#ifndef、#endif
 
-        // #ifndef GFLAGS_GFLAGS_H_
-        namespace gflags = google;
-        // #endif  // GFLAGS_GFLAGS_H_
+    // #ifndef GFLAGS_GFLAGS_H_
+    namespace gflags = google;
+    // #endif  // GFLAGS_GFLAGS_H_
