@@ -10,7 +10,8 @@ Can't parse message of type "caffe.NetParameter" because it is missing required 
 [相关安装参考](https://github.com/kebiao/deeplearning/blob/master/caffe_install.md)
 
 非默认的caffe需要修改cmake选项：
-[!img](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/media/cmake_installation/im_5.png)
+
+![img](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/media/cmake_installation/im_5.png)
 
 #### 编译：
 
