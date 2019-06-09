@@ -15,6 +15,10 @@ numpy：
 
     sudo apt-get install python-numpy
 
+protobuf:
+
+    sudo apt-get install python-protobuf
+
 安装opencv：
 
 默认版本安装：
