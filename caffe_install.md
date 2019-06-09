@@ -30,6 +30,11 @@ numpy：
     make
     sudo make install
 
+python中测试是否安装成功:
+
+    import cv2
+    import numpy
+
 #### 下载caffe与配置
 
 先clone
