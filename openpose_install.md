@@ -4,8 +4,8 @@
 
 Can't parse message of type "caffe.NetParameter" because it is missing required fields: layer[0].clip_param.min, layer[0].clip_param.max
 
-git clone https://github.com/BVLC/caffe.git
-git reset --hard f019d0dfe86f49d1140961f8c7dec22130c83154
+    git clone https://github.com/BVLC/caffe.git
+    git reset --hard f019d0dfe86f49d1140961f8c7dec22130c83154
 
 [相关安装参考](https://github.com/kebiao/deeplearning/blob/master/caffe_install.md)
 
@@ -14,5 +14,5 @@ git reset --hard f019d0dfe86f49d1140961f8c7dec22130c83154
 
 #### 编译：
 
-  cd build/
-  make -j`nproc`
+    cd build/
+    make -j`nproc`
