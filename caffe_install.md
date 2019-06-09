@@ -19,6 +19,10 @@ protobuf:
 
     sudo apt-get install python-protobuf
 
+gflags:
+
+    sudo apt-get install libgflags-dev
+    
 安装opencv：
 
 默认版本安装：
@@ -87,7 +91,7 @@ python中测试是否安装成功:
 
 nvcc fatal   : Unsupported gpu architecture 'compute_20'
 
-问题在于CUDA在CUDA architecture setting有版本兼容问题:
+问题在于CUDA在CUDA architecture setting有版本兼容问题，修改Makefile.config:
 
     CUDA_ARCH := -gencode arch=compute_20,code=sm_20 \
             -gencode arch=compute_20,code=sm_21 \
