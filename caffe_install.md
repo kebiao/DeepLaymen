@@ -106,4 +106,12 @@ nvcc fatal   : Unsupported gpu architecture 'compute_20'
             -gencode arch=compute_61,code=sm_61 \
             -gencode arch=compute_61,code=compute_61
 
+#### /usr/bin/ld: 找不到 -lcudnn
+
+进入cudnn解压得到的cudn文件夹lib64文件夹内：
+
+    sudo cp libcudnn.so /usr/local/cuda/lib64/
+    sudo cp libcudnn.so.7 /usr/local/cuda/lib64/
+    sudo cp libcudnn.so.7.4.1 /usr/local/cuda/lib64/
+    sudo cp libcudnn_static.a /usr/local/cuda/lib64/
 
