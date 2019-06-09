@@ -69,12 +69,15 @@ python中测试是否安装成功:
      sudo vim Makefile.config
    
   
-使用cudnn:
+有GPU支持则使用cudnn:
 
     #USE_CUDNN := 1
     
     修改成： 
     USE_CUDNN := 1
+    
+    只有CPU可以只开
+    CPU_ONLY := 1
     
 修改python路径:
 
