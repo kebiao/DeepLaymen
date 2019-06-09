@@ -25,7 +25,8 @@ gflags:
     
 也可以自己编译https://github.com/gflags/gflags/releases：
 
-    cmake -DCMAKE_INSTALL_PREFIX=/usr/local -DBUILD_SHARED_LIBS=ON -DGFLAGS_NAMESPACE=google -G“Unix Makefiles” ../ 
+    cd gflags-2.2.2/cmake
+    cmake -DCMAKE_INSTALL_PREFIX=/usr/local -DBUILD_SHARED_LIBS=ON -DGFLAGS_NAMESPACE=google -G"Unix Makefiles" ../
     make 
     sudo make install 
     sudo ldconfig 
