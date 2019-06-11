@@ -114,9 +114,9 @@ https://pan.baidu.com/s/1JxATR-4poggu1spJxJ-e4A 提取码：gxsy
     mv src/caffe/proto/caffe.pb.h include/caffe/proto
 
 
-#### 相关错误
+### 相关错误
 
-nvcc fatal   : Unsupported gpu architecture 'compute_20'
+#### nvcc fatal   : Unsupported gpu architecture 'compute_20'
 
 问题在于CUDA在CUDA architecture setting有版本兼容问题，修改Makefile.config:
 
