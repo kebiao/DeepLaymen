@@ -31,3 +31,13 @@ Can't parse message of type "caffe.NetParameter" because it is missing required 
 # Windows
 
 直接用CMake-gui打开，源码目录设置为：“D:\openpose-1.5.0”，编译目录设置为：“D:\openpose-1.5.0/build”， 然后直接Configure等待下载和安装第三方库资源，接着Generate，打开VS开始编译。
+
+# 测试：
+
+Ubuntu
+
+    ./build/examples/openpose/openpose.bin --video examples/media/video.avi
+
+Windows - Portable Demo
+
+    bin\OpenPoseDemo.exe --video examples\media\video.avi
