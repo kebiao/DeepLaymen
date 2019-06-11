@@ -1,10 +1,13 @@
 #### 所有资源：
 
-https://pan.baidu.com/s/1JxATR-4poggu1spJxJ-e4A 提取码：gxsy
+#### 官方下载（有些版本无法成功下载）：
 
 https://developer.nvidia.com/cuda-toolkit-archive
 
 https://developer.nvidia.com/rdp/cudnn-download
+
+#### 网盘直接下载：
+https://pan.baidu.com/s/1JxATR-4poggu1spJxJ-e4A 提取码：gxsy
 
 # Windows:
 
