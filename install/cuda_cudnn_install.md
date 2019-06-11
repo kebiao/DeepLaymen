@@ -15,7 +15,7 @@ https://pan.baidu.com/s/1JxATR-4poggu1spJxJ-e4A 提取码：gxsy
 
 将路径加入到path环境变量:
 
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;C:\tools\cuda\bin;
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;
 
 # Ubuntu:
 
