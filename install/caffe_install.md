@@ -2,7 +2,7 @@
 
 #### GPU环境CUDA和CuDNN安装 （CPU版本忽略）
 
-https://pan.baidu.com/s/1JxATR-4poggu1spJxJ-e4A 提取码：gxsy
+[参考安装教程](https://github.com/kebiao/deeplearning/blob/master/install/cuda_cudnn_install.md)
 
 
 #### 依赖库安装：
