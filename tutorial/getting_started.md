@@ -15,7 +15,7 @@
 * 还有著名的阿尔法狗(AlphaGo)是第一个击败人类职业围棋选手、第一个战胜围棋世界冠军的人工智能程序。它主要的原理就是深度学习。 
 * 自动驾驶、语音识别、图片文字识别等等。
 
-首先要弄明白人工智能、机器学习、深度学习这三者的关系。
+人工智能、机器学习、深度学习这三者的关系。
 
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/1.jpg)
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/2.png)
