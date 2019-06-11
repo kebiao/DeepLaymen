@@ -5,7 +5,7 @@
 #### 1: GPU环境CUDA和CuDNN安装 （CPU版本忽略）
 
 ###### 注意：匹配TensorFlow所支持的版本再下载
-[参考安装教程](https://github.com/kebiao/deeplearning/blob/master/cuda_cudnn_install.md)
+[参考安装教程](https://github.com/kebiao/deeplearning/blob/master/install/cuda_cudnn_install.md)
 
 #### 2：Anaconda安装
 

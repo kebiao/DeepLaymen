@@ -49,7 +49,7 @@ Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 配置完成后重启计算机，选择NeoGrub引导加载器，若上诉配置无误即可进入ubuntu界面的引导：
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/win_linux_install/7.png)
 
-[引导后黑屏问题请看这里。](https://github.com/kebiao/deeplearning/blob/master/ubuntu_install_blackscreen.md)
+[引导后黑屏问题请看这里。](https://github.com/kebiao/deeplearning/blob/master/install/ubuntu_install_blackscreen.md)
 
 ## 5.开始Ubuntu系统安装
 
