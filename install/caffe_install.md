@@ -1,4 +1,4 @@
-# 环境准备
+# Ubuntu环境准备
 
 #### GPU环境CUDA和CuDNN安装 （CPU版本忽略）
 

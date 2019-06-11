@@ -1,12 +1,12 @@
 # 环境准备
 
-#### Ubuntu:
+#### Ubuntu（Windows环境下忽略）
 
     sudo apt-get update
     sudo apt-get install build-essential libgtk2.0-dev libavcodec-dev libavformat-dev libjpeg-dev libswscale-dev libtiff5-dev:i386 libtiff5-dev
     sudo apt-get install autoconf automake libtool
 
-#### GPU环境CUDA和CuDNN安装 （CPU版本忽略）
+#### GPU环境CUDA和CuDNN安装（CPU版本忽略）
 
 https://pan.baidu.com/s/1JxATR-4poggu1spJxJ-e4A 提取码：gxsy
 
