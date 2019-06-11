@@ -17,7 +17,6 @@ h36m.zip直接在3d-pose-baseline\data下解压放置。
     cd 3d-pose-baseline
     mkdir data
     cd data
-    wget https://www.dropbox.com/s/e35qv3n6zlkouki/h36m.zip
     unzip h36m.zip
     rm h36m.zip
     cd ..
