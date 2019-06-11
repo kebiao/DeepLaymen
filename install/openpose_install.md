@@ -1,3 +1,9 @@
+# GPU方式编译请安装环境
+
+[参考安装教程](https://github.com/kebiao/deeplearning/blob/master/install/cuda_cudnn_install.md)
+
+# Ubuntu
+
 #### caffe安装：
 
 如果是自己下载安装编译，目前需要下载指定的版本，否则会产生错误，原因是新caffe中增加了一些layer，老的pose_iter_584000.caffemodel不匹配。
@@ -17,3 +23,7 @@ Can't parse message of type "caffe.NetParameter" because it is missing required 
 
     cd build/
     make -j`nproc`
+
+# Windows
+
+直接用CMake-gui打开，源码目录设置为：“D:\openpose-1.5.0”，编译目录设置为：“D:\openpose-1.5.0/build”， 然后直接Configure等待下载和安装第三方库资源，接着Generate，打开VS开始编译。
