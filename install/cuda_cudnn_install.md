@@ -11,7 +11,7 @@ https://pan.baidu.com/s/1JxATR-4poggu1spJxJ-e4A 提取码：gxsy
 
 # Windows:
 
-将cudnn中的文件拷贝到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0下
+将cudnn\下面所有的文件和文件夹拷贝到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0下
 
 将路径加入到path环境变量:
 
