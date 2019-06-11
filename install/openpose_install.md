@@ -1,3 +1,7 @@
+# 项目地址：
+
+https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/latest
+
 # GPU方式编译请安装环境
 
 [参考安装教程](https://github.com/kebiao/deeplearning/blob/master/install/cuda_cudnn_install.md)

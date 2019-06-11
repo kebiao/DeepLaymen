@@ -1,7 +1,7 @@
 
 ## 1.前提准备
 
-EasyBCD：https://pan.baidu.com/s/1E_XNf0RUOsPGgGc_h1UNUQ 提取码：uus2 
+EasyBCD：链接：https://pan.baidu.com/s/1E_XNf0RUOsPGgGc_h1UNUQ 提取码：uus2 
 
 Ubuntu系统镜像: https://www.ubuntu.com/download/desktop
 

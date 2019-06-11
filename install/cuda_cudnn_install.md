@@ -1,6 +1,6 @@
 #### 所有资源：
 
-https://pan.baidu.com/s/19ZxtLXnNYxjv4eE5uwLbqg    提取码：xpz0
+https://pan.baidu.com/s/1JxATR-4poggu1spJxJ-e4A 提取码：gxsy
 
 https://developer.nvidia.com/cuda-toolkit-archive
 
