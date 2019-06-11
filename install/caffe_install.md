@@ -1,25 +1,30 @@
-#### 环境准备
+# 环境准备
 
-依赖库安装：
+#### GPU环境CUDA和CuDNN安装 （CPU版本忽略）
+
+https://pan.baidu.com/s/1JxATR-4poggu1spJxJ-e4A 提取码：gxsy
+
+
+#### 依赖库安装：
 
     sudo apt-get install build-essential
     sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
     sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
 
-Python2.7 or python3.x：
+#### Python2.7 or python3.x：
 
     sudo apt-get install python3
     
-numpy：
+#### numpy：
 
     sudo apt-get install python-numpy
 
-protobuf:
+#### protobuf:
 
     sudo apt-get install python-protobuf
 
-gflags:
+#### gflags:
 
     sudo apt-get install libgflags-dev
     
@@ -34,7 +39,7 @@ gflags:
     sudo ldconfig 
 
 
-安装opencv：
+#### 安装opencv：
 
 默认版本安装：
 
@@ -49,10 +54,12 @@ gflags:
     make
     sudo make install
 
-python中测试是否安装成功:
+#### python中测试是否安装成功:
 
     import cv2
     import numpy
+
+# 开始安装
 
 #### 下载caffe与配置
 

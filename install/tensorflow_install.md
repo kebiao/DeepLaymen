@@ -1,4 +1,4 @@
-# 准备
+# 环境准备
 
 #### Ubuntu:
 
@@ -14,7 +14,7 @@ https://pan.baidu.com/s/1JxATR-4poggu1spJxJ-e4A 提取码：gxsy
 [参考安装教程](https://github.com/kebiao/deeplearning/blob/master/install/cuda_cudnn_install.md)
 
 
-# 开始:
+# 开始安装:
 
 #### 1：Anaconda安装
 
