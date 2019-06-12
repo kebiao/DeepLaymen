@@ -19,10 +19,9 @@
 * 还有著名的阿尔法狗(AlphaGo)是第一个击败人类职业围棋选手、第一个战胜围棋世界冠军的人工智能程序。它主要的原理就是深度学习。 
 * 自动驾驶、语音识别、图片文字识别等等。
 
-人工智能、机器学习、深度学习这三者的关系。
+人工智能、机器学习、深度学习这三者的关系？
 
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/1.jpg)
-![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/2.png)
 
 （从图中可以看出，人工智能是个很大的概念，机器学习是其中一个子集，而深度学习又是机器学习的子集）
 
@@ -33,5 +32,10 @@
 
 很多年前机器学习需要大量的人工设计并积累各种数据特征，比如一个字“柯”的各种不同情况下的特征，遇到新的情况就可能失效，并且传统的机器学习由于可训练的参数限制，在一些情况下无法形成足够的曲面无法用来拟合数据。
 而深度学习能够通过大量的数据自动的找到特征，能够形成足够复杂的曲面用于拟合，在海量的数据下能够获得比较理想的结果。
+
+![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/2.png)
+
+（从图中可以看出，机器学习在数据量提升到一定程度时表现无法持续提升，而深度学习则表现更好）
+
 
 #### CNN(卷积神经网络)、RNN(循环神经网络)、DNN(深度神经网络)
