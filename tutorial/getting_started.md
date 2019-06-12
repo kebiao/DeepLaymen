@@ -67,4 +67,8 @@
   <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_4.png">
 </p>
 
+<p align="center">
+  <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_6.png">
+</p>
+
 #### CNN(卷积神经网络)、RNN(循环神经网络)、DNN(深度神经网络)
