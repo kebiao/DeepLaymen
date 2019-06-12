@@ -5,22 +5,30 @@
 
 #### 什么是线性回归：
 
-import numpy as np
-from numpy import random
-import matplotlib.pyplot as plt
+一个简单的小例子：
 
-# 随机生成在[0,30]区间内服从均匀分布的100个数
-X = random.uniform(0, 30, 100)
+    import numpy as np
+    from numpy import random
+    import matplotlib.pyplot as plt
 
-# 对X乘以固定系数后加上随机扰动
-y = 1.85 * X + random.normal(2, 5, 100)
+    # 随机生成在[0,30]区间内服从均匀分布的100个数
+    X = random.uniform(0, 30, 100)
 
-plt.scatter(X, y)
-plt.xlabel('X')
-plt.ylabel('y')
-plt.show()
+    # 对X乘以固定系数后加上随机扰动
+    y = 1.85 * X + random.normal(2, 5, 100)
 
-* 假设X和y之间存在线性关系，即y=w∗X+b
-* y^=wX+b，其中y^y^表示根据线性方程计算得到的yy值（称为估计值），为尽可能准确的表达样本中X和y之间的关系，我们需要找到最优的w∗w∗和b∗b∗，使得yy的实际值和估计值之间的误差|y−y^||y−y^|最小化。
+    plt.scatter(X, y)
+    plt.xlabel('X')
+    plt.ylabel('y')
+    plt.show()
+
+以上代码随机生成一组样本X和y，现在给定一组X值，需要预测其对应的y值。
 
 
+解决这个问题的思路如下：
+
+* 假设X和y之间存在线性关系，即y=w ∗ X + b
+* ŷ = wX + b，其中ŷ 表示根据线性方程计算得到的yy值（称为估计值），为尽可能准确的表达样本中X和y之间的关系，我们需要找到最优的w∗和b∗，使得yy的实际值和估计值之间的误差|y − ŷ|最小化。
+
+
+以上问题中X称为自变量，y称为因变量，找到最优直线方程y = w∗X + b∗，使得因变量的估计值与实际值之间的误差最小的过程，称为线性回归。
