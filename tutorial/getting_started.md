@@ -1,6 +1,6 @@
 # 什么是深度学习？
 
-深度学习又称为深度神经网络（指层数超过三层的神经网络）。
+深度学习（Deep Learning, DL）是机器学习领域的一种技术，通过建立具有多层级（指层数超过三层的神经网络）结构的人工神经网络在计算系统中实现人工智能。
 深度学习作为机器学习研究中的一个新兴领域，由Hinton等人于2006年提出。
 
 
@@ -19,7 +19,9 @@
 
 人工智能、机器学习、深度学习这三者的关系？
 
-![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/1.jpg)
+<p align="center">
+  <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_1.png">
+</p>
 
 （从图中可以看出，人工智能是个很大的概念，机器学习是其中一个子集，而深度学习又是机器学习的子集）
 
@@ -32,10 +34,23 @@
 而深度学习能够通过大量的数据自动的找到特征，能够形成足够复杂的曲面用于拟合，在海量的数据下能够获得比较理想的结果。
 
 <p align="center">
-  <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/2.png">
+  <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_2.png">
 </p>
 
 （从图中可以看出，机器学习在数据量提升到一定程度时表现无法持续提升，而深度学习则表现更好）
 
+# 神经网络的基本组成
+
+在机器学习和相关领域，人工神经网络（人工神经网络）的计算模型灵感来自动物的中枢神经系统（尤其是脑），并且被用于估计或可以依赖于大量的输入和一般的未知近似函数。人工神经网络通常呈现为相互连接的“神经元”，它可以从输入的计算值，并且能够机器学习以及模式识别由于它们的自适应性质的系统。
+
+<p align="center">
+  <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_3.png">
+</p>
+
+例如，用于手写体识别的神经网络是由一组可能被输入图像的像素激活的输入神经元来限定。后进过加权，并通过一个函数（由网络的设计者确定的）转化，这些神经元的致动被上到其他神经元然后被传递。重复此过程，直到最后，一输出神经元被激活。这决定了哪些字符被读取。
+
+<p align="center">
+  <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_4.png">
+</p>
 
 #### CNN(卷积神经网络)、RNN(循环神经网络)、DNN(深度神经网络)

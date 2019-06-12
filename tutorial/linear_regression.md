@@ -25,7 +25,7 @@
 输出结果：
 
 <p align="center">
-  <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/3.png">
+  <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/linear_regression_1.png">
 </p>
 
 **以上代码随机生成一组样本X和y，现在给定一组X值，需要预测其对应的y值。**
