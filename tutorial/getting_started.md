@@ -33,7 +33,9 @@
 很多年前机器学习需要大量的人工设计并积累各种数据特征，比如一个字“柯”的各种不同情况下的特征，遇到新的情况就可能失效，并且传统的机器学习由于可训练的参数限制，在一些情况下无法形成足够的曲面无法用来拟合数据。
 而深度学习能够通过大量的数据自动的找到特征，能够形成足够复杂的曲面用于拟合，在海量的数据下能够获得比较理想的结果。
 
-->![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/2.png)<-
+<p align="center">
+  <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/2.png">
+</p>
 
 （从图中可以看出，机器学习在数据量提升到一定程度时表现无法持续提升，而深度学习则表现更好）
 
