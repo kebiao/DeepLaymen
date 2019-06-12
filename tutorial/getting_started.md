@@ -24,6 +24,9 @@
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/1.jpg)
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/2.png)
 
+（从图中可以看出，人工智能是个很大的概念，机器学习是其中一个子集，而深度学习又是机器学习的子集）
+
+
 深度学习以及其他所有的机器学习算法本质上都是一种“拟合”机制，深度学习能够在大量的数据基础之上总结出可用的规律。
 而这些数据是需要人来提供的，所以说机器学习过程就是让机器学习人类经验的过程。而这个过程与数据有关，与方法无关。
 
