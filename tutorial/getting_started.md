@@ -2,7 +2,7 @@
 
 #### 什么是深度学习？
 
-深度学习应用的知名案例：
+###### 首先我们了解一下深度学习相关应用的知名案例以便有个初步的理解：
 
 * 能够将视频中任意人的脸换成其他人的脸。
 
@@ -15,9 +15,13 @@
 * 还有著名的阿尔法狗(AlphaGo)是第一个击败人类职业围棋选手、第一个战胜围棋世界冠军的人工智能程序。它主要的原理就是深度学习。 
 * 自动驾驶、语音识别、图片文字识别等等。
 
-人工智能、机器学习、深度学习这三者的关系。
+###### 人工智能、机器学习、深度学习这三者的关系。
+
+很多人不清楚它们之间的关系，先看图：
 
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/1.jpg)
 ![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/2.png)
+
+
 
 #### CNN(卷积神经网络)、RNN(循环神经网络)、DNN(深度神经网络)
