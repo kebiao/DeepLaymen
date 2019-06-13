@@ -2,25 +2,27 @@
 
 # 目录
 
-> [什么是深度学习？](https://github.com/kebiao/deeplearning/blob/master/tutorial/getting_started.md)
+> 深度学习基础
 
-> [线性回归](https://github.com/kebiao/deeplearning/blob/master/tutorial/linear_regression.md)
+>> [什么是深度学习？](https://github.com/kebiao/deeplearning/blob/master/tutorial/getting_started.md)
 
-> [逻辑回归](https://github.com/kebiao/deeplearning/blob/master/tutorial/logistics_regression.md)
+>> [线性回归](https://github.com/kebiao/deeplearning/blob/master/tutorial/linear_regression.md)
 
-> 什么是欠拟合和过拟合？
+>> [逻辑回归](https://github.com/kebiao/deeplearning/blob/master/tutorial/logistics_regression.md)
 
-> 权重衰减（weight decay）
+>> 什么是欠拟合和过拟合？
 
-> 梯度下降（Gradient Descent）
+>> 权重衰减（weight decay）
 
-> 丢弃法（dropout）
+>> 梯度下降（Gradient Descent）
 
-> 正向传播、反向传播
+>> 丢弃法（dropout）
 
-> [深度神经网络（DNN）](https://github.com/kebiao/deeplearning/blob/master/tutorial/what_is_dnn.md)
+>> 正向传播、反向传播
 
-> [卷积神经网络（CNN）](https://github.com/kebiao/deeplearning/blob/master/tutorial/what_is_cnn.md)
+>> [深度神经网络（DNN）](https://github.com/kebiao/deeplearning/blob/master/tutorial/what_is_dnn.md)
 
-> [循环神经网络（RNN）](https://github.com/kebiao/deeplearning/blob/master/tutorial/what_is_rnn.md)
+>> [卷积神经网络（CNN）](https://github.com/kebiao/deeplearning/blob/master/tutorial/what_is_cnn.md)
+
+>> [循环神经网络（RNN）](https://github.com/kebiao/deeplearning/blob/master/tutorial/what_is_rnn.md)
 
