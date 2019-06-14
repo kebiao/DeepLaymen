@@ -43,6 +43,9 @@
 从函数图上可以看出，函数y = g(z)在z = 0时为1/2，随着z逐渐变小，函数值趋于0，z逐渐变大时函数值趋于1。
 如果定义线性回归的预测函数为![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_10_1.png)，那么逻辑回归的输出![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_10_2.png)，其中 y= g(z)正是上述sigmoid函数。
 
+直观地在二维空间理解逻辑回归，sigmoid函数的特性使得判定的阈值能够映射为平面的一条判定边界，当然随着特征的复杂化，判定边界可能是多种多样的样貌，但是它能够较好地把两类样本点分隔开，解决分类问题。
+
+
 #### 选定阈值
 
 什么是选定阀值？例如我选定一个阀值为0.5，那么小于0.5的一定是负例，哪怕他是0.49。其实不一定，因为它还是有49%的概率为正利的。
