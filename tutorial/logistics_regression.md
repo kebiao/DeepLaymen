@@ -40,6 +40,8 @@
 
 这样一个函数它不再像线性回归函数一样受离群值影响，他的输出结果是样本预测为正例或负例的概率(0到1之间的小数)。
 
+从函数图上可以看出，函数y = g(z)在z = 0时为1/2，随着z逐渐变小，函数值趋于0，z逐渐变大时函数值趋于1。
+如果定义线性回归的预测函数为![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_10_1.png)，那么逻辑回归的输出![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_10_2.png)，其中 y= g(z)正是上述sigmoid函数。
 
 #### 选定阈值
 
