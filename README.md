@@ -10,7 +10,7 @@
 
 >> [逻辑回归](https://github.com/kebiao/deeplearning/blob/master/tutorial/logistics_regression.md)
 
->> 什么是欠拟合和过拟合？
+>> [欠拟合和过拟合](https://github.com/kebiao/deeplearning/blob/master/tutorial/overfitting_underfitting.md)
 
 >> 权重衰减（weight decay）
 

@@ -10,3 +10,6 @@
 
 通过调整神经网络的能力可以控制一个模型是否过拟合或欠拟合。我们通过添加更多的层和神经元来增加能力。类似的，我们可以通过移除层和神经元以及应用正则化技术（权重decay、dropout、数据增加、早停等等）来降低能力。图17.1表示了模型能力与过拟合和欠拟合之间的关系。
 
+<p align="center">
+  <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/overfitting_underfitting_1.png">
+</p>
