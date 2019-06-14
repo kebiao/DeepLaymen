@@ -26,6 +26,8 @@
 >> [循环神经网络（RNN）](https://github.com/kebiao/deeplearning/blob/master/tutorial/what_is_rnn.md)
 
 
+----------------------------
+
 > 环境搭建
 >> [Windows+Ubuntu双系统安装](https://github.com/kebiao/deeplearning/blob/master/install/windows_linux_install.md)
 
@@ -35,6 +37,8 @@
 
 >> [Caffe安装](https://github.com/kebiao/deeplearning/blob/master/install/caffe_install.md)
 
+
+----------------------------
 
 > 开源项目搭建
 >> [openpose](https://github.com/kebiao/deeplearning/blob/master/install/openpose_install.md)
