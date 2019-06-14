@@ -38,12 +38,14 @@
   <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_10.png">
 </p>
 
-这样一个函数它不再像线性回归函数一样受离群值影响，他的输出结果是样本预测为正例或负例的概率(0到1之间的小数)。
+这样一个函数使得上面的例子不再像线性回归函数一样受离群值影响，因为他的输出结果是样本预测为正例或负例的概率(0到1之间的小数)。
 
 从函数图上可以看出，函数y = g(z)在z = 0时为1/2，随着z逐渐变小，函数值趋于0，z逐渐变大时函数值趋于1。
 如果定义线性回归的预测函数为![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_10_1.png)，那么逻辑回归的输出![image](https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/getting_started_10_2.png)，其中 y= g(z)正是上述sigmoid函数。
 
 直观地在二维空间理解逻辑回归，sigmoid函数的特性使得判定的阈值能够映射为平面的一条判定边界，当然随着特征的复杂化，判定边界可能是多种多样的样貌，但是它能够较好地把两类样本点分隔开，解决分类问题。
+
+求解逻辑回归参数的传统方法是梯度下降，构造为凸函数的代价函数后，每次沿着偏导方向（下降速度最快方向）迈进一小部分，直至N次迭代后到达最低点。
 
 
 #### 选定阈值
