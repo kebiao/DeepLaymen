@@ -14,6 +14,13 @@ https://github.com/ildoonet/tf-pose-estimation
 
 models文件夹直接在tf-pose-estimation\覆盖下解压放置。
 
+# 编译C++模块：
+
+ 先安装swig，将swig设置到环境变量path中
+ 
+    $ cd tf-pose-estimation/tf_pose/pafprocess
+    $ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
+
 # 测试：
 
 单张图片测试
