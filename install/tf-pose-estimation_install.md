@@ -1,6 +1,6 @@
 # 项目地址：
 
-https://github.com/una-dinosauria/3d-pose-baseline
+https://github.com/ildoonet/tf-pose-estimation
 
 # GPU方式编译请安装环境
 
@@ -8,26 +8,15 @@ https://github.com/una-dinosauria/3d-pose-baseline
 
 # 项目附带数据资源
 
-链接：https://pan.baidu.com/s/1rjWM7zxrcO7u7P81Furl0g 提取码：bjrg 
+链接：链接：https://pan.baidu.com/s/138owJ3OXjnSAUigI4z5ZqA 提取码：e1k6 
 
 # 安装资源
 
 h36m.zip直接在3d-pose-baseline\data下解压放置。
 
-    cd 3d-pose-baseline
-    mkdir data
-    cd data
-    unzip h36m.zip
-    rm h36m.zip
-    cd ..
-
-experiments.tar.gz直接解压放到根目录下。
-
-    cd 3d-pose-baseline
-    tar -zxvf experiments.tar.gz
-
-如果是Windows系统最好在Linux使用tar解压或者Windows下的tar工具解压，Windows下很多解压软件解压有问题。
-
+    cd tf-pose-estimation
+    unzip models.zip
+    rm models.zip
 
 # 测试：
 
