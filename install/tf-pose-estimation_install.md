@@ -14,6 +14,9 @@ https://github.com/ildoonet/tf-pose-estimation
 
 models文件夹直接在tf-pose-estimation\覆盖下解压放置。
 
+    $ cd tf-pose-estimation
+    $ pip3 install -r requirements.txt
+
 # 编译C++模块：
 
  先安装swig，将swig设置到环境变量path中
