@@ -12,11 +12,7 @@ https://github.com/ildoonet/tf-pose-estimation
 
 # 安装资源
 
-h36m.zip直接在3d-pose-baseline\data下解压放置。
-
-    cd tf-pose-estimation
-    unzip models.zip
-    rm models.zip
+models文件夹直接在tf-pose-estimation\覆盖下解压放置。
 
 # 测试：
 
