@@ -43,7 +43,10 @@
 =
 
 > 开源项目搭建
->> [openpose](https://github.com/kebiao/deeplearning/blob/master/install/openpose_install.md)
+>> 人体姿势预测
+>>> [openpose](https://github.com/kebiao/deeplearning/blob/master/install/openpose_install.md)
 
->> [3d-pose-baseline](https://github.com/kebiao/deeplearning/blob/master/install/3d-pose-baseline_install.md)
+>>> [3d-pose-baseline](https://github.com/kebiao/deeplearning/blob/master/install/3d-pose-baseline_install.md)
+
+>>> [tf-pose-estimation](https://github.com/kebiao/deeplearning/blob/master/install/tf-pose-estimation_install.md)
 
