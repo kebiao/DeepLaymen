@@ -39,7 +39,7 @@
 
 >> [Caffe安装](https://github.com/kebiao/deeplearning/blob/master/install/caffe_install.md)
 
->> [pytorch安装](https://github.com/kebiao/deeplearning/blob/master/install/pytorch_install.md)
+>> [PyTorch安装](https://github.com/kebiao/deeplearning/blob/master/install/pytorch_install.md)
 
 =
 
