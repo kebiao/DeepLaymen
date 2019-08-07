@@ -71,8 +71,8 @@
   <img src="https://github.com/kebiao/deeplearning/blob/master/screenshots/tutorial/what_is_cnn_6.gif">
 </p>
 
-        
-子采样有两种形式，一种是均值子采样（mean-pooling），一种是最大值子采样（max-pooling）。两种子采样看成特殊的卷积过程，如图下图所示：
+
+ 子采样有两种形式，一种是均值子采样（mean-pooling），一种是最大值子采样（max-pooling）。两种子采样看成特殊的卷积过程，如图下图所示：
 
        (1)均值子采样的卷积核中每个权重都是0.25，卷积核在原图inputX上的滑动的步长为2。均值子采样的效果相当于把原图模糊缩减至原来的1/4。
 
