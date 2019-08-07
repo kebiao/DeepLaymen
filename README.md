@@ -13,7 +13,7 @@
 
 >> [欠拟合和过拟合](https://github.com/kebiao/deeplearning/blob/master/tutorial/overfitting_underfitting.md)
 
->> 权重衰减（weight decay）
+>> [权重衰减（Weight Decay）](https://github.com/kebiao/deeplearning/blob/master/tutorial/weight_decay.md)
 
 >> 梯度下降（Gradient Descent）
 
